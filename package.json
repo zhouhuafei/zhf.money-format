@@ -1,6 +1,6 @@
 {
     "name": "zhf.money-format",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "给数字或者数字类型的字符串加千分符",
     "main": "dist/index.min.js",
     "scripts": {

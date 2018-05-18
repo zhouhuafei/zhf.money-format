@@ -15,7 +15,7 @@
      * */
     function moneyFormat(value = '') {
         value = value.toString();
-        if (isNaN(Number(value))) {
+        if (isNaN(Number(value)) || !value) {
             return '';
         }
         // 格式化成金额形式的正则

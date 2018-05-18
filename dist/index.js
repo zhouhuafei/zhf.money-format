@@ -24,7 +24,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
         var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
 
         value = value.toString();
-        if (isNaN(Number(value))) {
+        if (isNaN(Number(value)) || !value) {
             return '';
         }
         // 格式化成金额形式的正则
